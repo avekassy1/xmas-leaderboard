@@ -5,18 +5,20 @@ export function Welcome() {
   return (
     <>
       <Title className={classes.title} ta="center" mt={100}>
-        Welcome to{' '}
+         🎄 Xmas{' '}
         <Text inherit variant="gradient" component="span" gradient={{ from: 'pink', to: 'yellow' }}>
-          Mantine
-        </Text>
+          Leaderboard
+        </Text> 🎄
       </Title>
-      <Text c="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
-        This starter Next.js project includes a minimal setup for server side rendering, if you want
-        to learn more on Mantine + Next.js integration follow{' '}
-        <Anchor href="https://mantine.dev/guides/next/" size="lg">
+      <Text c="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl" style={{ marginBottom: 40}}>
+        Karacsony. A szeretet unnepe. Megannyi josag az asztalon: frissen sult bejgli, 
+        gozolgo halaszle mellett, szaloncukor. Karacsonydiszites, Reszkessetek 
+        Betorok es Frank Sinatra - micsoda orom! De legbelul mindannyian tudjuk, hogy az 
+        egyutt toltott idot igazan a rokonainkkal folytatott beszelgetesek teszik emlekezetesse.  
+
+        {/* <Anchor href="https://mantine.dev/guides/next/" size="lg">
           this guide
-        </Anchor>
-        . To get started edit page.tsx file.
+        </Anchor> */}
       </Text>
     </>
   );
